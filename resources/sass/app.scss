@@ -1,0 +1,45 @@
+
+body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background: black;
+}
+
+header{
+    background: grey;
+    margin-bottom: 20px;
+
+    img{
+        margin-left: 50px;
+        width: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+.cds-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+
+    .cd{
+        background: grey;
+        padding: 30px;
+        
+
+        img{
+            width: 250px;
+        }
+
+        .infos {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+    }
+}

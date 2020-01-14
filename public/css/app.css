@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  background: black;
+}
+
+header {
+  background: grey;
+  margin-bottom: 20px;
+}
+
+header img {
+  margin-left: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cds-container {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80%;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.cds-container .cd {
+  background: grey;
+  padding: 30px;
+}
+
+.cds-container .cd img {
+  width: 250px;
+}
+
+.cds-container .cd .infos {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  text-align: center;
+}
+
